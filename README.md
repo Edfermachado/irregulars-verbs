@@ -43,16 +43,16 @@ Si quieres clonar este proyecto y correrlo en tu propia máquina, sigue estos pa
 git clone [https://github.com/Edfermachado/irregulars-verbs.git](https://github.com/Edfermachado/irregulars-verbs.git)
 cd irregulars-verbs
 
-
-### 2. Instalar dependencias
+2. Instalar dependencias
 Bash
 npm install
 3. Iniciar el servidor de desarrollo
 Bash
 npm run dev
 Abre http://localhost:3000 en tu navegador para ver la aplicación corriendo.
+```
 
-📂 Estructura del Proyecto
+### 📂 Estructura del Proyecto
 Toda la lógica principal vive dentro del directorio app/:
 
 page.tsx: Componente principal del cliente que renderiza la UI y maneja las interacciones.
@@ -65,7 +65,7 @@ globals.css: Punto de entrada para Tailwind v4 y animaciones CSS personalizadas.
 
 
 ---
-👨‍💻 Creador
+### 👨‍💻 Creador
 Desarrollado con ❤️ por Edwin Machado (Edfer_code).
 
 GitHub: @Edfermachado
