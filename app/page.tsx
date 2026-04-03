@@ -48,7 +48,6 @@ export default function PracticeApp() {
       {/* 2. Área Central Óptica (Píldora de Objetivo + Verbo Base) */}
       <div className="flex-1 flex flex-col justify-center items-center w-full max-w-md px-4 pt-12 pb-6 min-h-75">
 
-        {/* LA SOLUCIÓN: Píldora de Objetivo en el centro visual */}
         <div className={`flex flex-col items-center justify-center px-6 py-2.5 rounded-2xl border-2 mb-8 transition-all duration-300 transform shadow-xl
           ${feedback === 'correct' ? 'bg-emerald-500 border-emerald-400 scale-110 shadow-emerald-500/20' :
             feedback === 'error' ? 'bg-rose-500 border-rose-400 scale-110 shadow-rose-500/20' :
