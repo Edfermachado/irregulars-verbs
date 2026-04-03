@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 VERB_QUEST: Irregular Verbs Practice App
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js_16-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-First, run the development server:
+Una aplicación web moderna, rápida e interactiva diseñada para dominar los verbos irregulares en inglés (V2 y V3). Construida con un enfoque "Mobile-First" y una estética Premium Dark Mode.
 
+🔗 **[¡Juega y practica en vivo aquí!](https://irregulars-verbs-two.vercel.app)**
+
+---
+
+## ✨ Características Principales
+
+* 🧠 **Práctica Dinámica:** El motor del juego alterna aleatoriamente entre pedir el **Pasado Simple (V2)** y el **Participio Pasado (V3)** para evitar la memorización mecánica.
+* 🎨 **Premium Dark UI:** Interfaz limpia estilo "Glassmorphism" con acentos en colores neón (Índigo y Esmeralda).
+* 📱 **Optimización Táctil:** Botones de gran tamaño con feedback mecánico (hundimiento interactivo) optimizados para los pulgares en dispositivos móviles.
+* 🔊 **Feedback Sensorial:** * **Audio:** Efectos de sonido Arcade al acertar o fallar.
+    * **Visual:** La pantalla destella en verde o rojo, y la cuadrícula de opciones vibra (`shake animation`) si te equivocas.
+* ⚡ **Rendimiento:** Creada con el App Router de Next.js y estilizada con el nuevo y ultrarrápido motor de **Tailwind CSS v4**.
+
+---
+
+## 🛠️ Tecnologías Usadas
+
+* **Framework:** [Next.js (App Router)](https://nextjs.org/)
+* **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)
+* **Estilos:** [Tailwind CSS v4](https://tailwindcss.com/)
+* **Gestor de Estado:** [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
+* **Despliegue:** [Vercel CLI](https://vercel.com/)
+* **Entorno de Desarrollo:** Desarrollado bajo Debian 12 (Linux).
+
+---
+
+## 🚀 Instalación y Uso Local
+
+Si quieres clonar este proyecto y correrlo en tu propia máquina, sigue estos pasos:
+
+### 1. Clonar el repositorio
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone [https://github.com/Edfermachado/irregulars-verbs.git](https://github.com/Edfermachado/irregulars-verbs.git)
+cd irregulars-verbs
