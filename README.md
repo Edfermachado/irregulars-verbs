@@ -42,3 +42,39 @@ Si quieres clonar este proyecto y correrlo en tu propia máquina, sigue estos pa
 ```bash
 git clone [https://github.com/Edfermachado/irregulars-verbs.git](https://github.com/Edfermachado/irregulars-verbs.git)
 cd irregulars-verbs
+
+
+### 2. Instalar dependencias
+Bash
+npm install
+3. Iniciar el servidor de desarrollo
+Bash
+npm run dev
+Abre http://localhost:3000 en tu navegador para ver la aplicación corriendo.
+
+📂 Estructura del Proyecto
+Toda la lógica principal vive dentro del directorio app/:
+
+page.tsx: Componente principal del cliente que renderiza la UI y maneja las interacciones.
+
+store.ts: Lógica del juego y manejo del estado global impulsado por Zustand.
+
+verbs.json: Base de datos ligera con los verbos en su forma base, pasada, participio y sus respectivos distractores.
+
+globals.css: Punto de entrada para Tailwind v4 y animaciones CSS personalizadas.
+
+
+---
+👨‍💻 Creador
+Desarrollado con ❤️ por Edwin Machado (Edfer_code).
+
+GitHub: @Edfermachado
+
+LinkedIn: Edwin Machado
+
+Email: Edfer_code@proton.me
+
+💡 "El código es como el humor. Cuando tienes que explicarlo, es malo." - Cory House
+
+
+*** ¡Listo! Para añadirlo a tu repositorio, solo crea (o edita si ya existe) el archivo `README.md` en la raíz de tu proyecto, pega todo esto, haz un `git commit` y súbelo. ¡Le dará un aspecto increíble a tu perfil en GitHub!
