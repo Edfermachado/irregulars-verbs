@@ -75,6 +75,3 @@ LinkedIn: Edwin Machado
 Email: Edfer_code@proton.me
 
 💡 "El código es como el humor. Cuando tienes que explicarlo, es malo." - Cory House
-
-
-*** ¡Listo! Para añadirlo a tu repositorio, solo crea (o edita si ya existe) el archivo `README.md` en la raíz de tu proyecto, pega todo esto, haz un `git commit` y súbelo. ¡Le dará un aspecto increíble a tu perfil en GitHub!
