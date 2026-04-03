@@ -1,7 +1,9 @@
 import { create } from 'zustand';
 import verbsData from './verbs.json';
 
-type GameMode = 'past' | 'participle';
+type VerbMode = 'past' | 'participle';
+// Añadimos 'correct' y 'error' al estado
+type FeedbackType = 'correct' | 'error' | null;
 
 interface Verb {
   base: string;
@@ -13,55 +15,50 @@ interface Verb {
 interface GameState {
   score: number;
   currentVerb: Verb | null;
-  currentMode: GameMode;
+  currentMode: VerbMode;
   options: string[];
+  feedback: FeedbackType; // Nuevo
   nextQuestion: () => void;
   checkAnswer: (answer: string) => void;
 }
 
-const shuffleArray = (array: string[]) => {
-  const newArray = [...array];
-  for (let i = newArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-  }
-  return newArray;
-};
+const shuffle = (array: string[]) => [...array].sort(() => Math.random() - 0.5);
 
 export const useStore = create<GameState>((set, get) => ({
   score: 0,
   currentVerb: null,
   currentMode: 'past',
   options: [],
-  
+  feedback: null,
+
   nextQuestion: () => {
     const randomIndex = Math.floor(Math.random() * verbsData.length);
     const selectedVerb = verbsData[randomIndex];
-    
-    // Elegir modo aleatorio: 50% pasado, 50% participio
-    const mode: GameMode = Math.random() > 0.5 ? 'past' : 'participle';
-    
-    // La respuesta correcta depende del modo
-    const correctAnswer = selectedVerb[mode];
-    const allOptions = [correctAnswer, ...selectedVerb.distractors];
-    
+    const newMode: VerbMode = Math.random() > 0.5 ? 'past' : 'participle';
+    const correctAnswer = selectedVerb[newMode];
+    const allOptions = shuffle([correctAnswer, ...selectedVerb.distractors]);
+
     set({
       currentVerb: selectedVerb,
-      currentMode: mode,
-      options: shuffleArray(allOptions),
+      currentMode: newMode,
+      options: allOptions,
+      feedback: null, // Resetear feedback
     });
   },
 
   checkAnswer: (answer: string) => {
     const { currentVerb, currentMode, score, nextQuestion } = get();
-    if (!currentVerb) return;
+    if (!currentVerb || get().feedback) return; // Evitar múltiples clics
 
     if (answer === currentVerb[currentMode]) {
-      set({ score: score + 1 });
+      set({ score: score + 1, feedback: 'correct' });
     } else {
-      set({ score: score - 1 });
+      set({ score: score - 1, feedback: 'error' });
     }
-    
-    nextQuestion();
+
+    // Esperar 600ms para que el usuario vea el efecto antes de cambiar
+    setTimeout(() => {
+      nextQuestion();
+    }, 600);
   },
 }));
