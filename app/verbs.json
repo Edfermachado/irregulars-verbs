@@ -1,0 +1,32 @@
+[
+  {
+    "base": "go",
+    "past": "went",
+    "participle": "gone",
+    "distractors": ["goed", "going", "goes"]
+  },
+  {
+    "base": "see",
+    "past": "saw",
+    "participle": "seen",
+    "distractors": ["seed", "seeing", "sees"]
+  },
+  {
+    "base": "take",
+    "past": "took",
+    "participle": "taken",
+    "distractors": ["taked", "taking", "takes"]
+  },
+  {
+    "base": "write",
+    "past": "wrote",
+    "participle": "written",
+    "distractors": ["writed", "writing", "writes"]
+  },
+  {
+    "base": "eat",
+    "past": "ate",
+    "participle": "eaten",
+    "distractors": ["eated", "eating", "eats"]
+  }
+]
