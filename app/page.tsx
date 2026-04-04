@@ -7,7 +7,13 @@ export default function PracticeApp() {
   const { score, currentVerb, currentMode, options, feedback, checkAnswer, nextQuestion } = useStore();
   const [mounted, setMounted] = useState(false);
 
+  // Nuevo estado para controlar el mute
+  const [isMuted, setIsMuted] = useState(false);
+
   const playSound = useCallback((type: 'correct' | 'error') => {
+    // Si está muteado, salimos de la función sin reproducir nada
+    if (isMuted) return;
+
     const urls = {
       correct: 'https://assets.mixkit.co/active_storage/sfx/600/600-preview.mp3',
       error: 'https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3'
@@ -15,7 +21,7 @@ export default function PracticeApp() {
     const audio = new Audio(urls[type]);
     audio.volume = 0.4;
     audio.play().catch(() => { });
-  }, []);
+  }, [isMuted]); // Añadimos isMuted a las dependencias
 
   useEffect(() => {
     setMounted(true);
@@ -32,16 +38,44 @@ export default function PracticeApp() {
     <main className={`min-h-dvh transition-colors duration-300 flex flex-col items-center font-sans overflow-hidden
       ${feedback === 'correct' ? 'bg-emerald-950' : feedback === 'error' ? 'bg-rose-950' : 'bg-zinc-950'}`}>
 
-      {/* 1. Header Minimalista (Logo y Score) */}
+ {/* 1. Header Minimalista (Logo, Mute y Score) */}
       <header className="w-full max-w-md px-6 pt-6 md:pt-8 flex justify-between items-center z-10">
         <h1 className="text-xl font-black tracking-tighter text-zinc-600">VERB_QUEST</h1>
 
-        <div className="bg-zinc-900/80 backdrop-blur-md border border-zinc-800/80 px-4 py-1.5 rounded-2xl flex items-center shadow-lg">
-          <span className="text-zinc-500 text-[10px] font-bold uppercase tracking-wider mr-3">Score</span>
-          <span className={`text-xl font-black tabular-nums transition-colors duration-300 
-            ${feedback === 'correct' ? 'text-emerald-400' : feedback === 'error' ? 'text-rose-400' : 'text-white'}`}>
-            {score}
-          </span>
+        {/* Contenedor Flex para Mute y Score */}
+        <div className="flex items-center gap-3">
+          
+          {/* Botón de Mute/Unmute */}
+          <button
+            onClick={() => setIsMuted(!isMuted)}
+            className="bg-zinc-900/80 backdrop-blur-md border border-zinc-800/80 p-2 rounded-xl text-zinc-400 hover:text-white hover:border-zinc-600 transition-all active:scale-95 shadow-lg flex items-center justify-center touch-manipulation"
+            aria-label={isMuted ? "Activar sonido" : "Silenciar sonido"}
+          >
+            {isMuted ? (
+              // Icono de Mute (Volumen apagado)
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="opacity-80">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="23" y1="9" x2="17" y2="15"></line>
+                <line x1="17" y1="9" x2="23" y2="15"></line>
+              </svg>
+            ) : (
+              // Icono de Unmute (Volumen alto)
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            )}
+          </button>
+
+          {/* Score Original */}
+          <div className="bg-zinc-900/80 backdrop-blur-md border border-zinc-800/80 px-4 py-1.5 rounded-xl flex items-center shadow-lg">
+            <span className="text-zinc-500 text-[10px] font-bold uppercase tracking-wider mr-3">Score</span>
+            <span className={`text-xl font-black tabular-nums transition-colors duration-300 
+              ${feedback === 'correct' ? 'text-emerald-400' : feedback === 'error' ? 'text-rose-400' : 'text-white'}`}>
+              {score}
+            </span>
+          </div>
         </div>
       </header>
 
