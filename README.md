@@ -1,29 +1,28 @@
-# 🎮 VERB_QUEST: Irregular Verbs Practice App
+# 🎮 VERB_QUEST V2: Full Tense Practice App
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white)
-![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Una aplicación web moderna, rápida e interactiva diseñada para dominar los verbos irregulares en inglés (V2 y V3). Construida con un enfoque "Mobile-First" y una estética Premium Dark Mode.
-
-🔗 **[¡Juega y practica en vivo aquí!](https://irregulars-verbs-two.vercel.app)**
+Una evolución masiva de la plataforma original para dominar no solo los verbos irregulares, sino todos los tiempos verbales clave en inglés a través de una experiencia gamificada premium.
 
 ---
 
-## ✨ Características Principales
+## 🚀 Nuevas Características (V2.0)
 
-* 🧠 **Práctica Dinámica:** El motor del juego alterna aleatoriamente entre pedir el **Pasado Simple (V2)** y el **Participio Pasado (V3)** para evitar la memorización mecánica.
-* 🎨 **Premium Dark UI:** Interfaz limpia estilo "Glassmorphism" con acentos en colores neón (Índigo y Esmeralda).
-* 📱 **Optimización Táctil:** Botones de gran tamaño con feedback mecánico (hundimiento interactivo) optimizados para los pulgares en dispositivos móviles.
-* 🔊 **Feedback Sensorial:** * **Audio:** Efectos de sonido Arcade al acertar o fallar.
-    * **Visual:** La pantalla destella en verde o rojo, y la cuadrícula de opciones vibra (`shake animation`) si te equivocas.
-* ⚡ **Rendimiento:** Creada con el App Router de Next.js y estilizada con el nuevo y ultrarrápido motor de **Tailwind CSS v4**.
+* 🏠 **Menú Principal Interactivo:** Nueva interfaz de inicio para seleccionar tu camino de aprendizaje.
+* 🕹️ **3 Modos de Juego:**
+    1.  **Irregular Verbs (Extendido):** Practica V1, V2, V3, Presente (3ra persona), Continuo y Futuro de más de 170 verbos.
+    2.  **Tenses in Context:** Completa oraciones reales (Fill-in-the-blank) para aprender el uso gramatical.
+    3.  **Direct Conjugation:** Domina las estructuras combinando Pronombres + Verbos Base + Tiempos Verbales.
+* 🎨 **UI Adaptativa:** Etiquetas de colores y estilos únicos para cada tiempo verbal para facilitar el reconocimiento visual.
+* 🧠 **Motor Inteligente:** Lógica unificada con Zustand que gestiona puntuación, feedback sensorial y transiciones fluidas.
 
 ---
 
 ## 🛠️ Tecnologías Usadas
+... (igual que antes)
 
 * **Framework:** [Next.js (App Router)](https://nextjs.org/)
 * **Lenguaje:** [TypeScript](https://www.typescriptlang.org/)

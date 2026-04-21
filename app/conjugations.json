@@ -1,0 +1,107 @@
+[
+  {
+    "pronoun": "I",
+    "verbBase": "go",
+    "tense": "Present Continuous",
+    "answer": "am going",
+    "distractors": ["go", "goes", "are going"]
+  },
+  {
+    "pronoun": "She",
+    "verbBase": "eat",
+    "tense": "Present Perfect",
+    "answer": "has eaten",
+    "distractors": ["have eaten", "ate", "eats"]
+  },
+  {
+    "pronoun": "They",
+    "verbBase": "study",
+    "tense": "Future Simple",
+    "answer": "will study",
+    "distractors": ["studyed", "studying", "studies"]
+  },
+  {
+    "pronoun": "We",
+    "verbBase": "work",
+    "tense": "Past Simple",
+    "answer": "worked",
+    "distractors": ["work", "working", "works"]
+  },
+  {
+    "pronoun": "He",
+    "verbBase": "play",
+    "tense": "Present Simple",
+    "answer": "plays",
+    "distractors": ["play", "playing", "played"]
+  },
+  {
+    "pronoun": "You",
+    "verbBase": "be",
+    "tense": "Past Simple",
+    "answer": "were",
+    "distractors": ["was", "are", "is"]
+  },
+  {
+    "pronoun": "It",
+    "verbBase": "rain",
+    "tense": "Present Continuous",
+    "answer": "is raining",
+    "distractors": ["are raining", "rains", "rained"]
+  },
+  {
+    "pronoun": "I",
+    "verbBase": "finish",
+    "tense": "Present Perfect",
+    "answer": "have finished",
+    "distractors": ["has finished", "finished", "am finishing"]
+  },
+  {
+    "pronoun": "She",
+    "verbBase": "watch",
+    "tense": "Past Continuous",
+    "answer": "was watching",
+    "distractors": ["were watching", "watched", "watches"]
+  },
+  {
+    "pronoun": "We",
+    "verbBase": "travel",
+    "tense": "Future (Going to)",
+    "answer": "are going to travel",
+    "distractors": ["is going to travel", "will travel", "travel"]
+  },
+  {
+    "pronoun": "He",
+    "verbBase": "drive",
+    "tense": "Past Simple (Irregular)",
+    "answer": "drove",
+    "distractors": ["drived", "drives", "was driving"]
+  },
+  {
+    "pronoun": "They",
+    "verbBase": "be",
+    "tense": "Present Continuous",
+    "answer": "are being",
+    "distractors": ["is being", "am being", "be"]
+  },
+  {
+    "pronoun": "I",
+    "verbBase": "sleep",
+    "tense": "Past Continuous",
+    "answer": "was sleeping",
+    "distractors": ["were sleeping", "slept", "sleep"]
+  },
+  {
+    "pronoun": "You",
+    "verbBase": "help",
+    "tense": "First Conditional",
+    "answer": "will help",
+    "distractors": ["help", "helps", "would help"]
+  },
+  {
+    "pronoun": "She",
+    "verbBase": "can",
+    "tense": "Modal (Ability Past)",
+    "answer": "could",
+    "distractors": ["can", "cans", "will can"]
+  }
+]

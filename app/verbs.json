@@ -3,1020 +3,2327 @@
     "base": "arise",
     "past": "arose",
     "participle": "arisen",
-    "distractors": ["arised", "arising", "aroses"]
+    "distractors": [
+      "ariseed",
+      "ariseing",
+      "aroses",
+      "arises",
+      "arised"
+    ],
+    "present3rd": "arises",
+    "continuous": "arising",
+    "future": "will arise"
   },
   {
     "base": "awake",
     "past": "awoke",
     "participle": "awoken",
-    "distractors": ["awaked", "awaking", "awokes"]
+    "distractors": [
+      "awokes",
+      "awakeing",
+      "awakes",
+      "awaked",
+      "awakeed"
+    ],
+    "present3rd": "awakes",
+    "continuous": "awaking",
+    "future": "will awake"
   },
   {
     "base": "be",
     "past": "was/were",
     "participle": "been",
-    "distractors": ["beed", "being", "bees"]
+    "distractors": [
+      "bees",
+      "bes",
+      "beed",
+      "being"
+    ],
+    "present3rd": "is",
+    "continuous": "being",
+    "future": "will be"
   },
   {
     "base": "bear",
     "past": "bore",
     "participle": "borne/born",
-    "distractors": ["beared", "bearing", "bores"]
+    "distractors": [
+      "bearing",
+      "beared",
+      "bears",
+      "bores"
+    ],
+    "present3rd": "bears",
+    "continuous": "bearing",
+    "future": "will bear"
   },
   {
     "base": "beat",
     "past": "beat",
     "participle": "beaten",
-    "distractors": ["beated", "beating", "beats"]
+    "distractors": [
+      "beating",
+      "beated",
+      "beats"
+    ],
+    "present3rd": "beats",
+    "continuous": "beating",
+    "future": "will beat"
   },
   {
     "base": "become",
     "past": "became",
     "participle": "become",
-    "distractors": ["becomed", "becoming", "becomes"]
+    "distractors": [
+      "becomeing",
+      "becomeed",
+      "becomes",
+      "becomed"
+    ],
+    "present3rd": "becomes",
+    "continuous": "becoming",
+    "future": "will become"
   },
   {
     "base": "begin",
     "past": "began",
     "participle": "begun",
-    "distractors": ["begined", "beginning", "begins"]
+    "distractors": [
+      "begined",
+      "begining",
+      "begins"
+    ],
+    "present3rd": "begins",
+    "continuous": "beginning",
+    "future": "will begin"
   },
   {
     "base": "bend",
     "past": "bent",
     "participle": "bent",
-    "distractors": ["bended", "bending", "bends"]
+    "distractors": [
+      "bends",
+      "bending",
+      "bended"
+    ],
+    "present3rd": "bends",
+    "continuous": "bending",
+    "future": "will bend"
   },
   {
     "base": "bet",
     "past": "bet",
     "participle": "bet",
-    "distractors": ["beted", "betting", "bets"]
+    "distractors": [
+      "beted",
+      "beting",
+      "bets",
+      "betting"
+    ],
+    "present3rd": "bets",
+    "continuous": "beting",
+    "future": "will bet"
   },
   {
     "base": "bind",
     "past": "bound",
     "participle": "bound",
-    "distractors": ["binded", "binding", "binds"]
+    "distractors": [
+      "binded",
+      "binds",
+      "binding"
+    ],
+    "present3rd": "binds",
+    "continuous": "binding",
+    "future": "will bind"
   },
   {
     "base": "bid",
     "past": "bid",
     "participle": "bid",
-    "distractors": ["bidded", "bidding", "bids"]
+    "distractors": [
+      "bids",
+      "bidding",
+      "bidded",
+      "bided",
+      "biding"
+    ],
+    "present3rd": "bids",
+    "continuous": "biding",
+    "future": "will bid"
   },
   {
     "base": "bite",
     "past": "bit",
     "participle": "bitten",
-    "distractors": ["bited", "biting", "bites"]
+    "distractors": [
+      "bites",
+      "biteing",
+      "bited",
+      "biteed"
+    ],
+    "present3rd": "bites",
+    "continuous": "biting",
+    "future": "will bite"
   },
   {
     "base": "bleed",
     "past": "bled",
     "participle": "bled",
-    "distractors": ["bleeded", "bleeding", "bleeds"]
+    "distractors": [
+      "bleeding",
+      "bleeded",
+      "bleeds"
+    ],
+    "present3rd": "bleeds",
+    "continuous": "bleeding",
+    "future": "will bleed"
   },
   {
     "base": "blow",
     "past": "blew",
     "participle": "blown",
-    "distractors": ["blowed", "blowing", "blows"]
+    "distractors": [
+      "blows",
+      "blowing",
+      "blowed"
+    ],
+    "present3rd": "blows",
+    "continuous": "blowing",
+    "future": "will blow"
   },
   {
     "base": "break",
     "past": "broke",
     "participle": "broken",
-    "distractors": ["breaked", "breaking", "breaks"]
+    "distractors": [
+      "breaks",
+      "breaked",
+      "breaking"
+    ],
+    "present3rd": "breaks",
+    "continuous": "breaking",
+    "future": "will break"
   },
   {
     "base": "breed",
     "past": "bred",
     "participle": "bred",
-    "distractors": ["breeded", "breeding", "breeds"]
+    "distractors": [
+      "breeding",
+      "breeds",
+      "breeded"
+    ],
+    "present3rd": "breeds",
+    "continuous": "breeding",
+    "future": "will breed"
   },
   {
     "base": "bring",
     "past": "brought",
     "participle": "brought",
-    "distractors": ["bringed", "bringing", "brings"]
+    "distractors": [
+      "brings",
+      "bringed",
+      "bringing"
+    ],
+    "present3rd": "brings",
+    "continuous": "bringing",
+    "future": "will bring"
   },
   {
     "base": "broadcast",
     "past": "broadcast",
     "participle": "broadcast",
-    "distractors": ["broadcasted", "broadcasting", "broadcasts"]
+    "distractors": [
+      "broadcasts",
+      "broadcasting",
+      "broadcasted"
+    ],
+    "present3rd": "broadcasts",
+    "continuous": "broadcasting",
+    "future": "will broadcast"
   },
   {
     "base": "build",
     "past": "built",
     "participle": "built",
-    "distractors": ["builded", "building", "builds"]
+    "distractors": [
+      "building",
+      "builded",
+      "builds"
+    ],
+    "present3rd": "builds",
+    "continuous": "building",
+    "future": "will build"
   },
   {
     "base": "burn",
     "past": "burnt/burned",
     "participle": "burnt/burned",
-    "distractors": ["burned", "burning", "burns"]
+    "distractors": [
+      "burned",
+      "burns",
+      "burning"
+    ],
+    "present3rd": "burns",
+    "continuous": "burning",
+    "future": "will burn"
   },
   {
     "base": "burst",
     "past": "burst",
     "participle": "burst",
-    "distractors": ["bursted", "bursting", "bursts"]
+    "distractors": [
+      "bursted",
+      "bursting",
+      "bursts"
+    ],
+    "present3rd": "bursts",
+    "continuous": "bursting",
+    "future": "will burst"
   },
   {
     "base": "buy",
     "past": "bought",
     "participle": "bought",
-    "distractors": ["buyed", "buying", "buys"]
+    "distractors": [
+      "buys",
+      "buying",
+      "buyed"
+    ],
+    "present3rd": "buys",
+    "continuous": "buying",
+    "future": "will buy"
   },
   {
     "base": "cast",
     "past": "cast",
     "participle": "cast",
-    "distractors": ["casted", "casting", "casts"]
+    "distractors": [
+      "casted",
+      "casting",
+      "casts"
+    ],
+    "present3rd": "casts",
+    "continuous": "casting",
+    "future": "will cast"
   },
   {
     "base": "catch",
     "past": "caught",
     "participle": "caught",
-    "distractors": ["catched", "catching", "catches"]
+    "distractors": [
+      "catched",
+      "catching",
+      "catchs"
+    ],
+    "present3rd": "catches",
+    "continuous": "catching",
+    "future": "will catch"
   },
   {
     "base": "come",
     "past": "came",
     "participle": "come",
-    "distractors": ["comed", "coming", "comes"]
+    "distractors": [
+      "comeed",
+      "comed",
+      "comes",
+      "comeing"
+    ],
+    "present3rd": "comes",
+    "continuous": "coming",
+    "future": "will come"
   },
   {
     "base": "cost",
     "past": "cost",
     "participle": "cost",
-    "distractors": ["costed", "costing", "costs"]
+    "distractors": [
+      "costing",
+      "costs",
+      "costed"
+    ],
+    "present3rd": "costs",
+    "continuous": "costing",
+    "future": "will cost"
   },
   {
     "base": "cut",
     "past": "cut",
     "participle": "cut",
-    "distractors": ["cutted", "cutting", "cuts"]
+    "distractors": [
+      "cuts",
+      "cutting",
+      "cuted",
+      "cutted",
+      "cuting"
+    ],
+    "present3rd": "cuts",
+    "continuous": "cuting",
+    "future": "will cut"
   },
   {
     "base": "choose",
     "past": "chose",
     "participle": "chosen",
-    "distractors": ["choosed", "choosing", "chooses"]
+    "distractors": [
+      "choosed",
+      "chooseed",
+      "chooseing",
+      "chooses"
+    ],
+    "present3rd": "chooses",
+    "continuous": "choosing",
+    "future": "will choose"
   },
   {
     "base": "cling",
     "past": "clung",
     "participle": "clung",
-    "distractors": ["clinged", "clinging", "clings"]
+    "distractors": [
+      "clinged",
+      "clings",
+      "clinging"
+    ],
+    "present3rd": "clings",
+    "continuous": "clinging",
+    "future": "will cling"
   },
   {
     "base": "creep",
     "past": "crept",
     "participle": "crept",
-    "distractors": ["creeped", "creeping", "creeps"]
+    "distractors": [
+      "creeps",
+      "creeped",
+      "creeping"
+    ],
+    "present3rd": "creeps",
+    "continuous": "creeping",
+    "future": "will creep"
   },
   {
     "base": "deal",
     "past": "dealt",
     "participle": "dealt",
-    "distractors": ["dealed", "dealing", "deals"]
+    "distractors": [
+      "dealing",
+      "dealed",
+      "deals"
+    ],
+    "present3rd": "deals",
+    "continuous": "dealing",
+    "future": "will deal"
   },
   {
     "base": "dig",
     "past": "dug",
     "participle": "dug",
-    "distractors": ["digged", "digging", "digs"]
+    "distractors": [
+      "digging",
+      "digged",
+      "digs",
+      "diged",
+      "diging"
+    ],
+    "present3rd": "digs",
+    "continuous": "diging",
+    "future": "will dig"
   },
   {
     "base": "do",
     "past": "did",
     "participle": "done",
-    "distractors": ["doed", "doing", "does"]
+    "distractors": [
+      "doed",
+      "doing",
+      "dos"
+    ],
+    "present3rd": "does",
+    "continuous": "doing",
+    "future": "will do"
   },
   {
     "base": "draw",
     "past": "drew",
     "participle": "drawn",
-    "distractors": ["drawed", "drawing", "draws"]
+    "distractors": [
+      "draws",
+      "drawing",
+      "drawed"
+    ],
+    "present3rd": "draws",
+    "continuous": "drawing",
+    "future": "will draw"
   },
   {
     "base": "dream",
     "past": "dreamt/dreamed",
     "participle": "dreamt/dreamed",
-    "distractors": ["dreamed", "dreaming", "dreams"]
+    "distractors": [
+      "dreamed",
+      "dreaming",
+      "dreams"
+    ],
+    "present3rd": "dreams",
+    "continuous": "dreaming",
+    "future": "will dream"
   },
   {
     "base": "drink",
     "past": "drank",
     "participle": "drunk",
-    "distractors": ["drinked", "drinking", "drinks"]
+    "distractors": [
+      "drinking",
+      "drinked",
+      "drinks"
+    ],
+    "present3rd": "drinks",
+    "continuous": "drinking",
+    "future": "will drink"
   },
   {
     "base": "drive",
     "past": "drove",
     "participle": "driven",
-    "distractors": ["drived", "driving", "drives"]
+    "distractors": [
+      "drived",
+      "driveed",
+      "driveing",
+      "drives"
+    ],
+    "present3rd": "drives",
+    "continuous": "driving",
+    "future": "will drive"
   },
   {
     "base": "eat",
     "past": "ate",
     "participle": "eaten",
-    "distractors": ["eated", "eating", "eats"]
+    "distractors": [
+      "eated",
+      "eats",
+      "eating"
+    ],
+    "present3rd": "eats",
+    "continuous": "eating",
+    "future": "will eat"
   },
   {
     "base": "fall",
     "past": "fell",
     "participle": "fallen",
-    "distractors": ["falled", "falling", "falls"]
+    "distractors": [
+      "falling",
+      "falls",
+      "falled"
+    ],
+    "present3rd": "falls",
+    "continuous": "falling",
+    "future": "will fall"
   },
   {
     "base": "feed",
     "past": "fed",
     "participle": "fed",
-    "distractors": ["feeded", "feeding", "feeds"]
+    "distractors": [
+      "feeded",
+      "feeds",
+      "feeding"
+    ],
+    "present3rd": "feeds",
+    "continuous": "feeding",
+    "future": "will feed"
   },
   {
     "base": "feel",
     "past": "felt",
     "participle": "felt",
-    "distractors": ["feelled", "feeling", "feels"]
+    "distractors": [
+      "feeling",
+      "feels",
+      "feeled",
+      "feelled"
+    ],
+    "present3rd": "feels",
+    "continuous": "feeling",
+    "future": "will feel"
   },
   {
     "base": "fight",
     "past": "fought",
     "participle": "fought",
-    "distractors": ["fighted", "fighting", "fights"]
+    "distractors": [
+      "fighted",
+      "fights",
+      "fighting"
+    ],
+    "present3rd": "fights",
+    "continuous": "fighting",
+    "future": "will fight"
   },
   {
     "base": "find",
     "past": "found",
     "participle": "found",
-    "distractors": ["finded", "finding", "finds"]
+    "distractors": [
+      "finds",
+      "finded",
+      "finding"
+    ],
+    "present3rd": "finds",
+    "continuous": "finding",
+    "future": "will find"
   },
   {
     "base": "flee",
     "past": "fled",
     "participle": "fled",
-    "distractors": ["fleeced", "fleeing", "flees"]
+    "distractors": [
+      "fleeing",
+      "flees",
+      "fleeed",
+      "fleeced"
+    ],
+    "present3rd": "flees",
+    "continuous": "fleeing",
+    "future": "will flee"
   },
   {
     "base": "fly",
     "past": "flew",
     "participle": "flown",
-    "distractors": ["flyed", "flying", "flies"]
+    "distractors": [
+      "flys",
+      "flying",
+      "flyed"
+    ],
+    "present3rd": "flies",
+    "continuous": "flying",
+    "future": "will fly"
   },
   {
     "base": "forbid",
     "past": "forbade",
     "participle": "forbidden",
-    "distractors": ["forbidded", "forbidding", "forbids"]
+    "distractors": [
+      "forbiding",
+      "forbided",
+      "forbidded",
+      "forbidding",
+      "forbids"
+    ],
+    "present3rd": "forbids",
+    "continuous": "forbiding",
+    "future": "will forbid"
   },
   {
     "base": "forget",
     "past": "forgot",
     "participle": "forgotten",
-    "distractors": ["forgeted", "forgetting", "forgets"]
+    "distractors": [
+      "forgeting",
+      "forgeted",
+      "forgetting",
+      "forgets"
+    ],
+    "present3rd": "forgets",
+    "continuous": "forgeting",
+    "future": "will forget"
   },
   {
     "base": "forgive",
     "past": "forgave",
     "participle": "forgiven",
-    "distractors": ["forgived", "forgiving", "forgives"]
+    "distractors": [
+      "forgiveing",
+      "forgived",
+      "forgiveed",
+      "forgives"
+    ],
+    "present3rd": "forgives",
+    "continuous": "forgiving",
+    "future": "will forgive"
   },
   {
     "base": "freeze",
     "past": "froze",
     "participle": "frozen",
-    "distractors": ["freezed", "freezing", "freezes"]
+    "distractors": [
+      "freezeing",
+      "freezed",
+      "freezes",
+      "freezeed"
+    ],
+    "present3rd": "freezes",
+    "continuous": "freezing",
+    "future": "will freeze"
   },
   {
     "base": "sing",
     "past": "sang",
     "participle": "sung",
-    "distractors": ["singed", "singing", "sings"]
+    "distractors": [
+      "singing",
+      "sings",
+      "singed"
+    ],
+    "present3rd": "sings",
+    "continuous": "singing",
+    "future": "will sing"
   },
   {
     "base": "sink",
     "past": "sank",
     "participle": "sunk",
-    "distractors": ["sinked", "sinking", "sinks"]
+    "distractors": [
+      "sinks",
+      "sinking",
+      "sinked"
+    ],
+    "present3rd": "sinks",
+    "continuous": "sinking",
+    "future": "will sink"
   },
   {
     "base": "sit",
     "past": "sat",
     "participle": "sat",
-    "distractors": ["sitted", "sitting", "sits"]
+    "distractors": [
+      "sitted",
+      "sited",
+      "sits",
+      "siting"
+    ],
+    "present3rd": "sits",
+    "continuous": "sitting",
+    "future": "will sit"
   },
   {
     "base": "sleep",
     "past": "slept",
     "participle": "slept",
-    "distractors": ["sleeped", "sleeping", "sleeps"]
+    "distractors": [
+      "sleeps",
+      "sleeping",
+      "sleeped"
+    ],
+    "present3rd": "sleeps",
+    "continuous": "sleeping",
+    "future": "will sleep"
   },
   {
     "base": "slide",
     "past": "slid",
     "participle": "slid",
-    "distractors": ["slided", "sliding", "slides"]
+    "distractors": [
+      "slided",
+      "slides",
+      "slideed",
+      "slideing"
+    ],
+    "present3rd": "slides",
+    "continuous": "sliding",
+    "future": "will slide"
   },
   {
     "base": "smell",
     "past": "smelt",
     "participle": "smelt",
-    "distractors": ["smelled", "smelling", "smells"]
+    "distractors": [
+      "smelling",
+      "smelled",
+      "smells"
+    ],
+    "present3rd": "smells",
+    "continuous": "smelling",
+    "future": "will smell"
   },
   {
     "base": "sow",
     "past": "sowed",
     "participle": "sowed/sown",
-    "distractors": ["sowed", "sowing", "sows"]
+    "distractors": [
+      "sowing",
+      "sowed",
+      "sows"
+    ],
+    "present3rd": "sows",
+    "continuous": "sowing",
+    "future": "will sow"
   },
   {
     "base": "speak",
     "past": "spoke",
     "participle": "spoken",
-    "distractors": ["speaked", "speaking", "speaks"]
+    "distractors": [
+      "speaked",
+      "speaking",
+      "speaks"
+    ],
+    "present3rd": "speaks",
+    "continuous": "speaking",
+    "future": "will speak"
   },
   {
     "base": "speed",
     "past": "sped",
     "participle": "sped",
-    "distractors": ["speeded", "speeding", "speeds"]
+    "distractors": [
+      "speeded",
+      "speeds",
+      "speeding"
+    ],
+    "present3rd": "speeds",
+    "continuous": "speeding",
+    "future": "will speed"
   },
   {
     "base": "spell",
     "past": "spelt",
     "participle": "spelt",
-    "distractors": ["spelled", "spelling", "spells"]
+    "distractors": [
+      "spelling",
+      "spelled",
+      "spells"
+    ],
+    "present3rd": "spells",
+    "continuous": "spelling",
+    "future": "will spell"
   },
   {
     "base": "spend",
     "past": "spent",
     "participle": "spent",
-    "distractors": ["spended", "spending", "spends"]
+    "distractors": [
+      "spending",
+      "spends",
+      "spended"
+    ],
+    "present3rd": "spends",
+    "continuous": "spending",
+    "future": "will spend"
   },
   {
     "base": "spill",
     "past": "spilt/spilled",
     "participle": "spilt/spilled",
-    "distractors": ["spilled", "spilling", "spills"]
+    "distractors": [
+      "spilled",
+      "spilling",
+      "spills"
+    ],
+    "present3rd": "spills",
+    "continuous": "spilling",
+    "future": "will spill"
   },
   {
     "base": "spin",
     "past": "spun",
     "participle": "spun",
-    "distractors": ["spinned", "spinning", "spins"]
+    "distractors": [
+      "spins",
+      "spinning",
+      "spined",
+      "spinned",
+      "spining"
+    ],
+    "present3rd": "spins",
+    "continuous": "spining",
+    "future": "will spin"
   },
   {
     "base": "spit",
     "past": "spat",
     "participle": "spat",
-    "distractors": ["spitted", "spitting", "spits"]
+    "distractors": [
+      "spitted",
+      "spited",
+      "spiting",
+      "spitting",
+      "spits"
+    ],
+    "present3rd": "spits",
+    "continuous": "spiting",
+    "future": "will spit"
   },
   {
     "base": "split",
     "past": "split",
     "participle": "split",
-    "distractors": ["splitted", "splitting", "splits"]
+    "distractors": [
+      "splitting",
+      "spliting",
+      "splited",
+      "splits",
+      "splitted"
+    ],
+    "present3rd": "splits",
+    "continuous": "spliting",
+    "future": "will split"
   },
   {
     "base": "spoil",
     "past": "spoilt/spoiled",
     "participle": "spoilt/spoiled",
-    "distractors": ["spoiled", "spoiling", "spoils"]
+    "distractors": [
+      "spoiling",
+      "spoils",
+      "spoiled"
+    ],
+    "present3rd": "spoils",
+    "continuous": "spoiling",
+    "future": "will spoil"
   },
   {
     "base": "spread",
     "past": "spread",
     "participle": "spread",
-    "distractors": ["spreaded", "spreading", "spreads"]
+    "distractors": [
+      "spreads",
+      "spreading",
+      "spreaded"
+    ],
+    "present3rd": "spreads",
+    "continuous": "spreading",
+    "future": "will spread"
   },
   {
     "base": "spring",
     "past": "sprang",
     "participle": "sprung",
-    "distractors": ["springed", "springing", "springs"]
+    "distractors": [
+      "springed",
+      "springs",
+      "springing"
+    ],
+    "present3rd": "springs",
+    "continuous": "springing",
+    "future": "will spring"
   },
   {
     "base": "stand",
     "past": "stood",
     "participle": "stood",
-    "distractors": ["standed", "standing", "stands"]
+    "distractors": [
+      "standed",
+      "stands",
+      "standing"
+    ],
+    "present3rd": "stands",
+    "continuous": "standing",
+    "future": "will stand"
   },
   {
     "base": "steal",
     "past": "stole",
     "participle": "stolen",
-    "distractors": ["stealed", "stealing", "steals"]
+    "distractors": [
+      "stealing",
+      "stealed",
+      "steals"
+    ],
+    "present3rd": "steals",
+    "continuous": "stealing",
+    "future": "will steal"
   },
   {
     "base": "stick",
     "past": "stuck",
     "participle": "stuck",
-    "distractors": ["sticked", "sticking", "sticks"]
+    "distractors": [
+      "sticked",
+      "sticks",
+      "sticking"
+    ],
+    "present3rd": "sticks",
+    "continuous": "sticking",
+    "future": "will stick"
   },
   {
     "base": "sting",
     "past": "stung",
     "participle": "stung",
-    "distractors": ["stinged", "stinging", "stings"]
+    "distractors": [
+      "stings",
+      "stinging",
+      "stinged"
+    ],
+    "present3rd": "stings",
+    "continuous": "stinging",
+    "future": "will sting"
   },
   {
     "base": "stink",
     "past": "stank/stunk",
     "participle": "stunk",
-    "distractors": ["stinked", "stinking", "stinks"]
+    "distractors": [
+      "stinks",
+      "stinking",
+      "stinked"
+    ],
+    "present3rd": "stinks",
+    "continuous": "stinking",
+    "future": "will stink"
   },
   {
     "base": "stride",
     "past": "strode",
     "participle": "stridden",
-    "distractors": ["strided", "striding", "strides"]
+    "distractors": [
+      "strideing",
+      "strideed",
+      "strides",
+      "strided"
+    ],
+    "present3rd": "strides",
+    "continuous": "striding",
+    "future": "will stride"
   },
   {
     "base": "strike",
     "past": "struck",
     "participle": "struck",
-    "distractors": ["striked", "striking", "strikes"]
+    "distractors": [
+      "strikeing",
+      "strikeed",
+      "striked",
+      "strikes"
+    ],
+    "present3rd": "strikes",
+    "continuous": "striking",
+    "future": "will strike"
   },
   {
     "base": "swear",
     "past": "swore",
     "participle": "sworn",
-    "distractors": ["swear", "swearing", "swears"]
+    "distractors": [
+      "swears",
+      "swear",
+      "sweared",
+      "swearing"
+    ],
+    "present3rd": "swears",
+    "continuous": "swearing",
+    "future": "will swear"
   },
   {
     "base": "sweat",
     "past": "sweat",
     "participle": "sweat",
-    "distractors": ["sweated", "sweating", "sweats"]
+    "distractors": [
+      "sweated",
+      "sweats",
+      "sweating"
+    ],
+    "present3rd": "sweats",
+    "continuous": "sweating",
+    "future": "will sweat"
   },
   {
     "base": "sweep",
     "past": "swept",
     "participle": "swept",
-    "distractors": ["sweeped", "sweeping", "sweeps"]
+    "distractors": [
+      "sweeping",
+      "sweeped",
+      "sweeps"
+    ],
+    "present3rd": "sweeps",
+    "continuous": "sweeping",
+    "future": "will sweep"
   },
   {
     "base": "swell",
     "past": "swelled",
     "participle": "swollen",
-    "distractors": ["swelled", "swelling", "swells"]
+    "distractors": [
+      "swelled",
+      "swelling",
+      "swells"
+    ],
+    "present3rd": "swells",
+    "continuous": "swelling",
+    "future": "will swell"
   },
   {
     "base": "swim",
     "past": "swam",
     "participle": "swum",
-    "distractors": ["swimmed", "swimming", "swims"]
+    "distractors": [
+      "swimmed",
+      "swimed",
+      "swiming",
+      "swims"
+    ],
+    "present3rd": "swims",
+    "continuous": "swimming",
+    "future": "will swim"
   },
   {
     "base": "swing",
     "past": "swung",
     "participle": "swung",
-    "distractors": ["swinged", "swinging", "swings"]
+    "distractors": [
+      "swinging",
+      "swinged",
+      "swings"
+    ],
+    "present3rd": "swings",
+    "continuous": "swinging",
+    "future": "will swing"
   },
   {
     "base": "take",
     "past": "took",
     "participle": "taken",
-    "distractors": ["taked", "taking", "takes"]
+    "distractors": [
+      "takes",
+      "taked",
+      "takeed",
+      "takeing"
+    ],
+    "present3rd": "takes",
+    "continuous": "taking",
+    "future": "will take"
   },
   {
     "base": "teach",
     "past": "taught",
     "participle": "taught",
-    "distractors": ["teached", "teaching", "teaches"]
+    "distractors": [
+      "teached",
+      "teachs",
+      "teaching"
+    ],
+    "present3rd": "teaches",
+    "continuous": "teaching",
+    "future": "will teach"
   },
   {
     "base": "tear",
     "past": "tore",
     "participle": "torn",
-    "distractors": ["teared", "tearing", "tears"]
+    "distractors": [
+      "tearing",
+      "teared",
+      "tears"
+    ],
+    "present3rd": "tears",
+    "continuous": "tearing",
+    "future": "will tear"
   },
   {
     "base": "tell",
     "past": "told",
     "participle": "told",
-    "distractors": ["telled", "telling", "tells"]
+    "distractors": [
+      "telled",
+      "tells",
+      "telling"
+    ],
+    "present3rd": "tells",
+    "continuous": "telling",
+    "future": "will tell"
   },
   {
     "base": "think",
     "past": "thought",
     "participle": "thought",
-    "distractors": ["thinked", "thinking", "thinks"]
+    "distractors": [
+      "thinking",
+      "thinked",
+      "thinks"
+    ],
+    "present3rd": "thinks",
+    "continuous": "thinking",
+    "future": "will think"
   },
   {
     "base": "throw",
     "past": "threw",
     "participle": "thrown",
-    "distractors": ["throwed", "throwing", "throws"]
+    "distractors": [
+      "throws",
+      "throwed",
+      "throwing"
+    ],
+    "present3rd": "throws",
+    "continuous": "throwing",
+    "future": "will throw"
   },
   {
     "base": "thrust",
     "past": "thrust",
     "participle": "thrust",
-    "distractors": ["thrusted", "thrusting", "thrusts"]
+    "distractors": [
+      "thrusting",
+      "thrusted",
+      "thrusts"
+    ],
+    "present3rd": "thrusts",
+    "continuous": "thrusting",
+    "future": "will thrust"
   },
   {
     "base": "tread",
     "past": "trod",
     "participle": "trodden",
-    "distractors": ["treaded", "treading", "treads"]
+    "distractors": [
+      "treads",
+      "treading",
+      "treaded"
+    ],
+    "present3rd": "treads",
+    "continuous": "treading",
+    "future": "will tread"
   },
   {
     "base": "understand",
     "past": "understood",
     "participle": "understood",
-    "distractors": ["understood", "understanding", "understands"]
+    "distractors": [
+      "understanded",
+      "understanding",
+      "understands",
+      "understood"
+    ],
+    "present3rd": "understands",
+    "continuous": "understanding",
+    "future": "will understand"
   },
   {
     "base": "undergo",
     "past": "underwent",
     "participle": "undergone",
-    "distractors": ["undergoed", "undergoing", "undergoes"]
+    "distractors": [
+      "undergoing",
+      "undergoed",
+      "undergos"
+    ],
+    "present3rd": "undergoes",
+    "continuous": "undergoing",
+    "future": "will undergo"
   },
   {
     "base": "undertake",
     "past": "undertook",
     "participle": "undertaken",
-    "distractors": ["undertaked", "undertaking", "undertakes"]
+    "distractors": [
+      "undertaked",
+      "undertakeed",
+      "undertakes",
+      "undertakeing"
+    ],
+    "present3rd": "undertakes",
+    "continuous": "undertaking",
+    "future": "will undertake"
   },
   {
     "base": "wake",
     "past": "woke",
     "participle": "woken",
-    "distractors": ["waked", "waking", "wakes"]
+    "distractors": [
+      "wakeed",
+      "wakeing",
+      "wakes",
+      "waked"
+    ],
+    "present3rd": "wakes",
+    "continuous": "waking",
+    "future": "will wake"
   },
   {
     "base": "wear",
     "past": "wore",
     "participle": "worn",
-    "distractors": ["weared", "wearing", "wears"]
+    "distractors": [
+      "wearing",
+      "wears",
+      "weared"
+    ],
+    "present3rd": "wears",
+    "continuous": "wearing",
+    "future": "will wear"
   },
   {
     "base": "weave",
     "past": "wove",
     "participle": "woven",
-    "distractors": ["weaved", "weaving", "weaves"]
+    "distractors": [
+      "weaveing",
+      "weaved",
+      "weaveed",
+      "weaves"
+    ],
+    "present3rd": "weaves",
+    "continuous": "weaving",
+    "future": "will weave"
   },
   {
     "base": "weep",
     "past": "wept",
     "participle": "wept",
-    "distractors": ["weeped", "weeping", "weeps"]
+    "distractors": [
+      "weeps",
+      "weeped",
+      "weeping"
+    ],
+    "present3rd": "weeps",
+    "continuous": "weeping",
+    "future": "will weep"
   },
   {
     "base": "wet",
     "past": "wet",
     "participle": "wet",
-    "distractors": ["wetted", "wetting", "wets"]
+    "distractors": [
+      "wetting",
+      "weting",
+      "wetted",
+      "wets",
+      "weted"
+    ],
+    "present3rd": "wets",
+    "continuous": "weting",
+    "future": "will wet"
   },
   {
     "base": "win",
     "past": "won",
     "participle": "won",
-    "distractors": ["winned", "winning", "wins"]
+    "distractors": [
+      "winned",
+      "wins",
+      "wined",
+      "wining"
+    ],
+    "present3rd": "wins",
+    "continuous": "winning",
+    "future": "will win"
   },
   {
     "base": "wind",
     "past": "wound",
     "participle": "wound",
-    "distractors": ["winded", "winding", "winds"]
+    "distractors": [
+      "winding",
+      "winded",
+      "winds"
+    ],
+    "present3rd": "winds",
+    "continuous": "winding",
+    "future": "will wind"
   },
   {
     "base": "withdraw",
     "past": "withdrew",
     "participle": "withdrawn",
-    "distractors": ["withdrawed", "withdrawing", "withdraws"]
+    "distractors": [
+      "withdrawed",
+      "withdraws",
+      "withdrawing"
+    ],
+    "present3rd": "withdraws",
+    "continuous": "withdrawing",
+    "future": "will withdraw"
   },
   {
     "base": "wring",
     "past": "wrung",
     "participle": "wrung",
-    "distractors": ["wringed", "wringing", "wrings"]
+    "distractors": [
+      "wrings",
+      "wringed",
+      "wringing"
+    ],
+    "present3rd": "wrings",
+    "continuous": "wringing",
+    "future": "will wring"
   },
   {
     "base": "write",
     "past": "wrote",
     "participle": "written",
-    "distractors": ["writed", "writing", "writes"]
+    "distractors": [
+      "writed",
+      "writeing",
+      "writeed",
+      "writes"
+    ],
+    "present3rd": "writes",
+    "continuous": "writing",
+    "future": "will write"
   },
   {
     "base": "accept",
     "past": "accepted",
     "participle": "accepted",
-    "distractors": ["accept", "accepting", "accepts"]
+    "distractors": [
+      "accepting",
+      "accepted",
+      "accepts",
+      "accept"
+    ],
+    "present3rd": "accepts",
+    "continuous": "accepting",
+    "future": "will accept"
   },
   {
     "base": "count",
     "past": "counted",
     "participle": "counted",
-    "distractors": ["count", "counting", "counts"]
+    "distractors": [
+      "counted",
+      "counting",
+      "count",
+      "counts"
+    ],
+    "present3rd": "counts",
+    "continuous": "counting",
+    "future": "will count"
   },
   {
     "base": "date",
     "past": "dated",
     "participle": "dated",
-    "distractors": ["date", "dating", "dates"]
+    "distractors": [
+      "date",
+      "dates",
+      "dateing",
+      "dateed"
+    ],
+    "present3rd": "dates",
+    "continuous": "dating",
+    "future": "will date"
   },
   {
     "base": "end",
     "past": "ended",
     "participle": "ended",
-    "distractors": ["end", "ending", "ends"]
+    "distractors": [
+      "end",
+      "ended",
+      "ends",
+      "ending"
+    ],
+    "present3rd": "ends",
+    "continuous": "ending",
+    "future": "will end"
   },
   {
     "base": "expect",
     "past": "expected",
     "participle": "expected",
-    "distractors": ["expect", "expecting", "expects"]
+    "distractors": [
+      "expects",
+      "expect",
+      "expecting",
+      "expected"
+    ],
+    "present3rd": "expects",
+    "continuous": "expecting",
+    "future": "will expect"
   },
   {
     "base": "intend",
     "past": "intended",
     "participle": "intended",
-    "distractors": ["intend", "intending", "intends"]
+    "distractors": [
+      "intend",
+      "intended",
+      "intending",
+      "intends"
+    ],
+    "present3rd": "intends",
+    "continuous": "intending",
+    "future": "will intend"
   },
   {
     "base": "need",
     "past": "needed",
     "participle": "needed",
-    "distractors": ["need", "needing", "needs"]
+    "distractors": [
+      "needed",
+      "needing",
+      "need",
+      "needs"
+    ],
+    "present3rd": "needs",
+    "continuous": "needing",
+    "future": "will need"
   },
   {
     "base": "plant",
     "past": "planted",
     "participle": "planted",
-    "distractors": ["plant", "planting", "plants"]
+    "distractors": [
+      "planted",
+      "plants",
+      "planting",
+      "plant"
+    ],
+    "present3rd": "plants",
+    "continuous": "planting",
+    "future": "will plant"
   },
   {
     "base": "point",
     "past": "pointed",
     "participle": "pointed",
-    "distractors": ["point", "pointing", "points"]
+    "distractors": [
+      "pointed",
+      "pointing",
+      "point",
+      "points"
+    ],
+    "present3rd": "points",
+    "continuous": "pointing",
+    "future": "will point"
   },
   {
     "base": "rent",
     "past": "rented",
     "participle": "rented",
-    "distractors": ["rent", "renting", "rents"]
+    "distractors": [
+      "renting",
+      "rents",
+      "rent",
+      "rented"
+    ],
+    "present3rd": "rents",
+    "continuous": "renting",
+    "future": "will rent"
   },
   {
     "base": "repeat",
     "past": "repeated",
     "participle": "repeated",
-    "distractors": ["repeat", "repeating", "repeats"]
+    "distractors": [
+      "repeating",
+      "repeat",
+      "repeated",
+      "repeats"
+    ],
+    "present3rd": "repeats",
+    "continuous": "repeating",
+    "future": "will repeat"
   },
   {
     "base": "resist",
     "past": "resisted",
     "participle": "resisted",
-    "distractors": ["resist", "resisting", "resists"]
+    "distractors": [
+      "resist",
+      "resisting",
+      "resisted",
+      "resists"
+    ],
+    "present3rd": "resists",
+    "continuous": "resisting",
+    "future": "will resist"
   },
   {
     "base": "start",
     "past": "started",
     "participle": "started",
-    "distractors": ["start", "starting", "starts"]
+    "distractors": [
+      "starting",
+      "started",
+      "starts",
+      "start"
+    ],
+    "present3rd": "starts",
+    "continuous": "starting",
+    "future": "will start"
   },
   {
     "base": "visit",
     "past": "visited",
     "participle": "visited",
-    "distractors": ["visit", "visiting", "visits"]
+    "distractors": [
+      "visited",
+      "visit",
+      "visiting",
+      "visits"
+    ],
+    "present3rd": "visits",
+    "continuous": "visiting",
+    "future": "will visit"
   },
   {
     "base": "wait",
     "past": "waited",
     "participle": "waited",
-    "distractors": ["wait", "waiting", "waits"]
+    "distractors": [
+      "waits",
+      "wait",
+      "waited",
+      "waiting"
+    ],
+    "present3rd": "waits",
+    "continuous": "waiting",
+    "future": "will wait"
   },
   {
     "base": "want",
     "past": "wanted",
     "participle": "wanted",
-    "distractors": ["want", "wanting", "wants"]
+    "distractors": [
+      "wanting",
+      "want",
+      "wants",
+      "wanted"
+    ],
+    "present3rd": "wants",
+    "continuous": "wanting",
+    "future": "will want"
   },
   {
     "base": "ask",
     "past": "asked",
     "participle": "asked",
-    "distractors": ["ask", "asking", "asks"]
+    "distractors": [
+      "asked",
+      "ask",
+      "asks",
+      "asking"
+    ],
+    "present3rd": "asks",
+    "continuous": "asking",
+    "future": "will ask"
   },
   {
     "base": "cook",
     "past": "cooked",
     "participle": "cooked",
-    "distractors": ["cook", "cooking", "cooks"]
+    "distractors": [
+      "cooked",
+      "cook",
+      "cooking",
+      "cooks"
+    ],
+    "present3rd": "cooks",
+    "continuous": "cooking",
+    "future": "will cook"
   },
   {
     "base": "dance",
     "past": "danced",
     "participle": "danced",
-    "distractors": ["dance", "dancing", "dances"]
+    "distractors": [
+      "dances",
+      "dance",
+      "danceing",
+      "danceed"
+    ],
+    "present3rd": "dances",
+    "continuous": "dancing",
+    "future": "will dance"
   },
   {
     "base": "dress",
     "past": "dressed",
     "participle": "dressed",
-    "distractors": ["dress", "dressing", "dresses"]
+    "distractors": [
+      "dress",
+      "dresss",
+      "dressed",
+      "dressing"
+    ],
+    "present3rd": "dresses",
+    "continuous": "dressing",
+    "future": "will dress"
   },
   {
     "base": "erase",
     "past": "erased",
     "participle": "erased",
-    "distractors": ["erase", "erasing", "erases"]
+    "distractors": [
+      "eraseed",
+      "erase",
+      "erases",
+      "eraseing"
+    ],
+    "present3rd": "erases",
+    "continuous": "erasing",
+    "future": "will erase"
   },
   {
     "base": "finish",
     "past": "finished",
     "participle": "finished",
-    "distractors": ["finish", "finishing", "finishes"]
+    "distractors": [
+      "finished",
+      "finishing",
+      "finishs",
+      "finish"
+    ],
+    "present3rd": "finishes",
+    "continuous": "finishing",
+    "future": "will finish"
   },
   {
     "base": "help",
     "past": "helped",
     "participle": "helped",
-    "distractors": ["help", "helping", "helps"]
+    "distractors": [
+      "helps",
+      "helped",
+      "help",
+      "helping"
+    ],
+    "present3rd": "helps",
+    "continuous": "helping",
+    "future": "will help"
   },
   {
     "base": "jump",
     "past": "jumped",
     "participle": "jumped",
-    "distractors": ["jump", "jumping", "jumps"]
+    "distractors": [
+      "jump",
+      "jumped",
+      "jumps",
+      "jumping"
+    ],
+    "present3rd": "jumps",
+    "continuous": "jumping",
+    "future": "will jump"
   },
   {
     "base": "like",
     "past": "liked",
     "participle": "liked",
-    "distractors": ["like", "liking", "likes"]
+    "distractors": [
+      "like",
+      "likeed",
+      "likes",
+      "likeing"
+    ],
+    "present3rd": "likes",
+    "continuous": "liking",
+    "future": "will like"
   },
   {
     "base": "look",
     "past": "looked",
     "participle": "looked",
-    "distractors": ["look", "looking", "looks"]
+    "distractors": [
+      "looking",
+      "looks",
+      "looked",
+      "look"
+    ],
+    "present3rd": "looks",
+    "continuous": "looking",
+    "future": "will look"
   },
   {
     "base": "miss",
     "past": "missed",
     "participle": "missed",
-    "distractors": ["miss", "missing", "misses"]
+    "distractors": [
+      "miss",
+      "missing",
+      "missed",
+      "misss"
+    ],
+    "present3rd": "misses",
+    "continuous": "missing",
+    "future": "will miss"
   },
   {
     "base": "practice",
     "past": "practiced",
     "participle": "practiced",
-    "distractors": ["practice", "practicing", "practices"]
+    "distractors": [
+      "practice",
+      "practices",
+      "practiceed",
+      "practiceing"
+    ],
+    "present3rd": "practices",
+    "continuous": "practicing",
+    "future": "will practice"
   },
   {
     "base": "push",
     "past": "pushed",
     "participle": "pushed",
-    "distractors": ["push", "pushing", "pushes"]
+    "distractors": [
+      "push",
+      "pushing",
+      "pushs",
+      "pushed"
+    ],
+    "present3rd": "pushes",
+    "continuous": "pushing",
+    "future": "will push"
   },
   {
     "base": "shop",
     "past": "shopped",
     "participle": "shopped",
-    "distractors": ["shop", "shopping", "shops"]
+    "distractors": [
+      "shopping",
+      "shoping",
+      "shop",
+      "shops",
+      "shoped"
+    ],
+    "present3rd": "shops",
+    "continuous": "shoping",
+    "future": "will shop"
   },
   {
     "base": "smoke",
     "past": "smoked",
     "participle": "smoked",
-    "distractors": ["smoke", "smoking", "smokes"]
+    "distractors": [
+      "smokeing",
+      "smokes",
+      "smokeed",
+      "smoke"
+    ],
+    "present3rd": "smokes",
+    "continuous": "smoking",
+    "future": "will smoke"
   },
   {
     "base": "stop",
     "past": "stopped",
     "participle": "stopped",
-    "distractors": ["stop", "stopping", "stops"]
+    "distractors": [
+      "stop",
+      "stoping",
+      "stops",
+      "stoped"
+    ],
+    "present3rd": "stops",
+    "continuous": "stopping",
+    "future": "will stop"
   },
   {
     "base": "talk",
     "past": "talked",
     "participle": "talked",
-    "distractors": ["talk", "talking", "talks"]
+    "distractors": [
+      "talks",
+      "talking",
+      "talked",
+      "talk"
+    ],
+    "present3rd": "talks",
+    "continuous": "talking",
+    "future": "will talk"
   },
   {
     "base": "use",
     "past": "used",
     "participle": "used",
-    "distractors": ["use", "using", "uses"]
+    "distractors": [
+      "useing",
+      "use",
+      "useed",
+      "uses"
+    ],
+    "present3rd": "uses",
+    "continuous": "using",
+    "future": "will use"
   },
   {
     "base": "walk",
     "past": "walked",
     "participle": "walked",
-    "distractors": ["walk", "walking", "walks"]
+    "distractors": [
+      "walking",
+      "walk",
+      "walks",
+      "walked"
+    ],
+    "present3rd": "walks",
+    "continuous": "walking",
+    "future": "will walk"
   },
   {
     "base": "wash",
     "past": "washed",
     "participle": "washed",
-    "distractors": ["wash", "washing", "washes"]
+    "distractors": [
+      "wash",
+      "washing",
+      "washs",
+      "washed"
+    ],
+    "present3rd": "washes",
+    "continuous": "washing",
+    "future": "will wash"
   },
   {
     "base": "wish",
     "past": "wished",
     "participle": "wished",
-    "distractors": ["wish", "wishing", "wishes"]
+    "distractors": [
+      "wish",
+      "wished",
+      "wishs",
+      "wishing"
+    ],
+    "present3rd": "wishes",
+    "continuous": "wishing",
+    "future": "will wish"
   },
   {
     "base": "work",
     "past": "worked",
     "participle": "worked",
-    "distractors": ["work", "working", "works"]
+    "distractors": [
+      "works",
+      "working",
+      "worked",
+      "work"
+    ],
+    "present3rd": "works",
+    "continuous": "working",
+    "future": "will work"
   },
   {
     "base": "answer",
     "past": "answered",
     "participle": "answered",
-    "distractors": ["answer", "answering", "answers"]
+    "distractors": [
+      "answer",
+      "answered",
+      "answers",
+      "answering"
+    ],
+    "present3rd": "answers",
+    "continuous": "answering",
+    "future": "will answer"
   },
   {
     "base": "arrive",
     "past": "arrived",
     "participle": "arrived",
-    "distractors": ["arrive", "arriving", "arrives"]
+    "distractors": [
+      "arriveing",
+      "arrive",
+      "arriveed",
+      "arrives"
+    ],
+    "present3rd": "arrives",
+    "continuous": "arriving",
+    "future": "will arrive"
   },
   {
     "base": "belong",
     "past": "belonged",
     "participle": "belonged",
-    "distractors": ["belong", "belonging", "belongs"]
+    "distractors": [
+      "belong",
+      "belonging",
+      "belonged",
+      "belongs"
+    ],
+    "present3rd": "belongs",
+    "continuous": "belonging",
+    "future": "will belong"
   },
   {
     "base": "change",
     "past": "changed",
     "participle": "changed",
-    "distractors": ["change", "changing", "changes"]
+    "distractors": [
+      "changeing",
+      "changeed",
+      "change",
+      "changes"
+    ],
+    "present3rd": "changes",
+    "continuous": "changing",
+    "future": "will change"
   },
   {
     "base": "clean",
     "past": "cleaned",
     "participle": "cleaned",
-    "distractors": ["clean", "cleaning", "cleans"]
+    "distractors": [
+      "clean",
+      "cleaned",
+      "cleans",
+      "cleaning"
+    ],
+    "present3rd": "cleans",
+    "continuous": "cleaning",
+    "future": "will clean"
   },
   {
     "base": "climb",
     "past": "climbed",
     "participle": "climbed",
-    "distractors": ["climb", "climbing", "climbs"]
+    "distractors": [
+      "climbs",
+      "climbed",
+      "climbing",
+      "climb"
+    ],
+    "present3rd": "climbs",
+    "continuous": "climbing",
+    "future": "will climb"
   },
   {
     "base": "close",
     "past": "closed",
     "participle": "closed",
-    "distractors": ["close", "closing", "closes"]
+    "distractors": [
+      "close",
+      "closeed",
+      "closes",
+      "closeing"
+    ],
+    "present3rd": "closes",
+    "continuous": "closing",
+    "future": "will close"
   },
   {
     "base": "consider",
     "past": "considered",
     "participle": "considered",
-    "distractors": ["consider", "considering", "considers"]
+    "distractors": [
+      "considered",
+      "considering",
+      "considers",
+      "consider"
+    ],
+    "present3rd": "considers",
+    "continuous": "considering",
+    "future": "will consider"
   },
   {
     "base": "dare",
     "past": "dared",
     "participle": "dared",
-    "distractors": ["dare", "daring", "dares"]
+    "distractors": [
+      "dareed",
+      "dares",
+      "dare",
+      "dareing"
+    ],
+    "present3rd": "dares",
+    "continuous": "daring",
+    "future": "will dare"
   },
   {
     "base": "deliver",
     "past": "delivered",
     "participle": "delivered",
-    "distractors": ["deliver", "delivering", "delivers"]
+    "distractors": [
+      "delivers",
+      "delivering",
+      "delivered",
+      "deliver"
+    ],
+    "present3rd": "delivers",
+    "continuous": "delivering",
+    "future": "will deliver"
   },
   {
     "base": "enjoy",
     "past": "enjoyed",
     "participle": "enjoyed",
-    "distractors": ["enjoy", "enjoying", "enjoys"]
+    "distractors": [
+      "enjoyed",
+      "enjoys",
+      "enjoy",
+      "enjoying"
+    ],
+    "present3rd": "enjoys",
+    "continuous": "enjoying",
+    "future": "will enjoy"
   },
   {
     "base": "fill",
     "past": "filled",
     "participle": "filled",
-    "distractors": ["fill", "filling", "fills"]
+    "distractors": [
+      "filling",
+      "fills",
+      "fill",
+      "filled"
+    ],
+    "present3rd": "fills",
+    "continuous": "filling",
+    "future": "will fill"
   },
   {
     "base": "follow",
     "past": "followed",
     "participle": "followed",
-    "distractors": ["follow", "following", "follows"]
+    "distractors": [
+      "follow",
+      "followed",
+      "follows",
+      "following"
+    ],
+    "present3rd": "follows",
+    "continuous": "following",
+    "future": "will follow"
   },
   {
     "base": "hurry",
     "past": "hurried",
     "participle": "hurried",
-    "distractors": ["hurry", "hurrying", "hurries"]
+    "distractors": [
+      "hurrying",
+      "hurry",
+      "hurrys",
+      "hurryed"
+    ],
+    "present3rd": "hurries",
+    "continuous": "hurrying",
+    "future": "will hurry"
   },
   {
     "base": "learn",
     "past": "learned",
     "participle": "learned",
-    "distractors": ["learn", "learning", "learns"]
+    "distractors": [
+      "learned",
+      "learns",
+      "learning",
+      "learn"
+    ],
+    "present3rd": "learns",
+    "continuous": "learning",
+    "future": "will learn"
   },
   {
     "base": "listen",
     "past": "listened",
     "participle": "listened",
-    "distractors": ["listen", "listening", "listens"]
+    "distractors": [
+      "listened",
+      "listening",
+      "listen",
+      "listens"
+    ],
+    "present3rd": "listens",
+    "continuous": "listening",
+    "future": "will listen"
   },
   {
     "base": "live",
     "past": "lived",
     "participle": "lived",
-    "distractors": ["live", "living", "lives"]
+    "distractors": [
+      "liveed",
+      "live",
+      "lives",
+      "liveing"
+    ],
+    "present3rd": "lives",
+    "continuous": "living",
+    "future": "will live"
   },
   {
     "base": "love",
     "past": "loved",
     "participle": "loved",
-    "distractors": ["love", "loving", "loves"]
+    "distractors": [
+      "loveed",
+      "loveing",
+      "loves",
+      "love"
+    ],
+    "present3rd": "loves",
+    "continuous": "loving",
+    "future": "will love"
   },
   {
     "base": "name",
     "past": "named",
     "participle": "named",
-    "distractors": ["name", "naming", "names"]
+    "distractors": [
+      "nameed",
+      "names",
+      "nameing",
+      "name"
+    ],
+    "present3rd": "names",
+    "continuous": "naming",
+    "future": "will name"
   },
   {
     "base": "open",
     "past": "opened",
     "participle": "opened",
-    "distractors": ["open", "opening", "opens"]
+    "distractors": [
+      "opened",
+      "opening",
+      "opens",
+      "open"
+    ],
+    "present3rd": "opens",
+    "continuous": "opening",
+    "future": "will open"
   },
   {
     "base": "order",
     "past": "ordered",
     "participle": "ordered",
-    "distractors": ["order", "ordering", "orders"]
+    "distractors": [
+      "order",
+      "orders",
+      "ordered",
+      "ordering"
+    ],
+    "present3rd": "orders",
+    "continuous": "ordering",
+    "future": "will order"
   },
   {
     "base": "plan",
     "past": "planned",
     "participle": "planned",
-    "distractors": ["plan", "planning", "plans"]
+    "distractors": [
+      "plans",
+      "plan",
+      "planing",
+      "planed",
+      "planning"
+    ],
+    "present3rd": "plans",
+    "continuous": "planing",
+    "future": "will plan"
   },
   {
     "base": "play",
     "past": "played",
     "participle": "played",
-    "distractors": ["play", "playing", "plays"]
+    "distractors": [
+      "played",
+      "plays",
+      "playing",
+      "play"
+    ],
+    "present3rd": "plays",
+    "continuous": "playing",
+    "future": "will play"
   },
   {
     "base": "rain",
     "past": "rained",
     "participle": "rained",
-    "distractors": ["rain", "raining", "rains"]
+    "distractors": [
+      "rained",
+      "rain",
+      "raining",
+      "rains"
+    ],
+    "present3rd": "rains",
+    "continuous": "raining",
+    "future": "will rain"
   },
   {
     "base": "remember",
     "past": "remembered",
     "participle": "remembered",
-    "distractors": ["remember", "remembering", "remembers"]
+    "distractors": [
+      "remember",
+      "remembering",
+      "remembered",
+      "remembers"
+    ],
+    "present3rd": "remembers",
+    "continuous": "remembering",
+    "future": "will remember"
   },
   {
     "base": "show",
     "past": "showed",
     "participle": "showed",
-    "distractors": ["show", "showing", "shows"]
+    "distractors": [
+      "showing",
+      "shows",
+      "show",
+      "showed"
+    ],
+    "present3rd": "shows",
+    "continuous": "showing",
+    "future": "will show"
   },
   {
     "base": "stay",
     "past": "stayed",
     "participle": "stayed",
-    "distractors": ["stay", "staying", "stays"]
+    "distractors": [
+      "stayed",
+      "staying",
+      "stays",
+      "stay"
+    ],
+    "present3rd": "stays",
+    "continuous": "staying",
+    "future": "will stay"
   },
   {
     "base": "study",
     "past": "studied",
     "participle": "studied",
-    "distractors": ["study", "studying", "studies"]
+    "distractors": [
+      "studys",
+      "studyed",
+      "studying",
+      "study"
+    ],
+    "present3rd": "studies",
+    "continuous": "studying",
+    "future": "will study"
   },
   {
     "base": "travel",
     "past": "traveled",
     "participle": "traveled",
-    "distractors": ["travel", "traveling", "travels"]
+    "distractors": [
+      "travels",
+      "traveled",
+      "traveling",
+      "travel"
+    ],
+    "present3rd": "travels",
+    "continuous": "traveling",
+    "future": "will travel"
   },
   {
     "base": "try",
     "past": "tried",
     "participle": "tried",
-    "distractors": ["try", "trying", "tries"]
+    "distractors": [
+      "trying",
+      "trys",
+      "try",
+      "tryed"
+    ],
+    "present3rd": "tries",
+    "continuous": "trying",
+    "future": "will try"
   },
   {
     "base": "turn",
     "past": "turned",
     "participle": "turned",
-    "distractors": ["turn", "turning", "turns"]
+    "distractors": [
+      "turned",
+      "turn",
+      "turning",
+      "turns"
+    ],
+    "present3rd": "turns",
+    "continuous": "turning",
+    "future": "will turn"
   }
 ]

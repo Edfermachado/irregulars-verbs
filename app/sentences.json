@@ -1,0 +1,107 @@
+[
+  {
+    "sentence": "Tomorrow, she ___ to Paris by train.",
+    "verbBase": "go",
+    "tense": "Future Simple",
+    "answer": "will go",
+    "distractors": ["goes", "went", "is going"]
+  },
+  {
+    "sentence": "Yesterday, they ___ a new car.",
+    "verbBase": "buy",
+    "tense": "Past Simple",
+    "answer": "bought",
+    "distractors": ["buyed", "buys", "buying"]
+  },
+  {
+    "sentence": "Right now, I ___ my homework.",
+    "verbBase": "do",
+    "tense": "Present Continuous",
+    "answer": "am doing",
+    "distractors": ["do", "did", "does"]
+  },
+  {
+    "sentence": "She already ___ the movie three times.",
+    "verbBase": "see",
+    "tense": "Present Perfect",
+    "answer": "has seen",
+    "distractors": ["have seen", "saw", "sees"]
+  },
+  {
+    "sentence": "He usually ___ coffee in the morning.",
+    "verbBase": "drink",
+    "tense": "Present Simple",
+    "answer": "drinks",
+    "distractors": ["drink", "drank", "drinking"]
+  },
+  {
+    "sentence": "While I was walking home, it ___ to rain.",
+    "verbBase": "begin",
+    "tense": "Past Simple",
+    "answer": "began",
+    "distractors": ["begun", "begins", "was beginning"]
+  },
+  {
+    "sentence": "I ___ my keys. Can you help me look for them?",
+    "verbBase": "lose",
+    "tense": "Present Perfect",
+    "answer": "have lost",
+    "distractors": ["has lost", "lost", "am losing"]
+  },
+  {
+    "sentence": "Look at those clouds! It ___.",
+    "verbBase": "rain",
+    "tense": "Future (Going to)",
+    "answer": "is going to rain",
+    "distractors": ["will rain", "rains", "is raining"]
+  },
+  {
+    "sentence": "She ___ on the project when I called her yesterday.",
+    "verbBase": "work",
+    "tense": "Past Continuous",
+    "answer": "was working",
+    "distractors": ["worked", "works", "is working"]
+  },
+  {
+    "sentence": "If it rains tomorrow, we ___ at home.",
+    "verbBase": "stay",
+    "tense": "First Conditional",
+    "answer": "will stay",
+    "distractors": ["stay", "stayed", "would stay"]
+  },
+  {
+    "sentence": "I ___ to music every night before I fall asleep.",
+    "verbBase": "listen",
+    "tense": "Present Simple",
+    "answer": "listen",
+    "distractors": ["listens", "listening", "am listening"]
+  },
+  {
+    "sentence": "They ___ dinner when the lights suddenly went out.",
+    "verbBase": "have",
+    "tense": "Past Continuous",
+    "answer": "were having",
+    "distractors": ["had", "have", "was having"]
+  },
+  {
+    "sentence": "___ you ever ___ sushi?",
+    "verbBase": "eat",
+    "tense": "Present Perfect (Interrogative)",
+    "answer": "Have ... eaten",
+    "distractors": ["Did ... eat", "Do ... eat", "Are ... eating"]
+  },
+  {
+    "sentence": "I promise I ___ you the money back tomorrow.",
+    "verbBase": "give",
+    "tense": "Future Simple",
+    "answer": "will give",
+    "distractors": ["give", "am giving", "gave"]
+  },
+  {
+    "sentence": "You ___ smoke here. It's a hospital.",
+    "verbBase": "can (Negative)",
+    "tense": "Modal Verb (Prohibition)",
+    "answer": "must not",
+    "distractors": ["don't have to", "shouldn't", "won't"]
+  }
+]
